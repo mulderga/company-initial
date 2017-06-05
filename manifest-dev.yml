@@ -7,7 +7,7 @@ applications:
   buildpack: java_buildpack
   services:
    - company-db
-   - my-logs
+   - company-log
    - newrelic
   path: ./build/libs/company.jar
   env:

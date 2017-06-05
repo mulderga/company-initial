@@ -7,3 +7,5 @@ bin
 .gradle
 /.idea
 /config/.vagrant
+/ci/credentials.yml
+
