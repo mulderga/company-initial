@@ -8,10 +8,10 @@
 - Created service DB: cf create-service cleardb spark company-db
 - Added dependencies for Spring Cloud Foundry Connectors
 - cf push the company jar using manifest and no-start
+- Set active profile DEV
 
 
 TODO: 
 
-- WHY? SampleData -> @Profile("dev") doesn't work!
 - create own Log service for Company app
 - fix test (!!!)
