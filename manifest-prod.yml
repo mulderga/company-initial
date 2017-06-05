@@ -1,8 +1,8 @@
 ---
 applications:
 - name: company
-  random-route: true
-  instances: 1
+  random-route: false
+  instances: 2
   memory: 1024M
   buildpack: java_buildpack
   services:
@@ -11,4 +11,4 @@ applications:
    - newrelic
   path: ./build/libs/company.jar
   env:
-    SPRING_ACTIVE_PROFILES: prod
+    SPRING_PROFILES_ACTIVE: prod

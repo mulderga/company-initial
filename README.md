@@ -13,5 +13,5 @@
 
 TODO: 
 
-- create own Log service for Company app
+- create own Log service for Company app -> logs5.papertrailapp.com:15234 
 - fix test (!!!)

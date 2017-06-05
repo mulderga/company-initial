@@ -10,3 +10,5 @@ applications:
    - my-logs
    - newrelic
   path: ./build/libs/company.jar
+  env:
+    SPRING_PROFILES_ACTIVE: dev
