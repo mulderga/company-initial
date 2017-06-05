@@ -20,10 +20,10 @@ public class SampleData implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-    	logger.info("Started SampleData...");
+    	logger.debug("Started SampleData...");
     	add(new Company("Resilient Scale", new String[]{"Resilient Scale, Inc", "Resilient Scale Inc", "RScale"}, "https://rscale.io", "resilientscale"));
     	add(new Company("Cloud Foundry", new String[]{"Cloud Foundry Foundation", "CFF"}, "https://cloudfoundry.org", "cloudfoundry"));
-        repository.findAll().forEach(company -> logger.info(company));
+        repository.findAll().forEach(company -> logger.debug(company));
     }
     	
     private void add(Company company) throws Exception {

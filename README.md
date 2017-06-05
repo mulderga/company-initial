@@ -12,5 +12,6 @@
 
 TODO: 
 
+- WHY? SampleData -> @Profile("dev") doesn't work!
 - create own Log service for Company app
 - fix test (!!!)
