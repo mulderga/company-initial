@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
+@Profile({"dev","local","test"})
 public class SampleData implements CommandLineRunner {
 
 	private static final Logger logger = Logger.getLogger(SampleData.class);
