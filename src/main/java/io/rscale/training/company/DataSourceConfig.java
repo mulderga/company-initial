@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Profile;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 @Configuration
-@Profile("local")
+@Profile({"local","test"})
 public class DataSourceConfig {
 
     private static final Logger logger = Logger.getLogger(DataSourceConfig.class);
