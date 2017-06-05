@@ -24,12 +24,17 @@ repositories {
 	mavenCentral()
 }
 
-
 dependencies {
+
+	compile 'org.springframework.cloud:spring-cloud-spring-service-connector'
+	compile 'org.springframework.cloud:spring-cloud-cloudfoundry-connector'
+
+
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.hsqldb:hsqldb')
 }
 
 dependencyManagement {
