@@ -6,3 +6,6 @@ spring:
   cloud:
     config:
       uri: ${vcap.services.config-service.credentials.uri}
+management:
+  security:
+    enabled: false
