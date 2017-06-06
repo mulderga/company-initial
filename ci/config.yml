@@ -1,5 +1,5 @@
 build_task: pipelines/gradle/tasks/gradle-assemble.yml
-deploy_dev_task: pipelines/gradle/tasks/blue-green-deploy.yml
+deploy_dev_task: pipelines/cf/tasks/blue-green-deploy.yml
 
 app_name: company
 jar_name: gmulder-company
