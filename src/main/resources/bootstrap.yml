@@ -1,11 +1,9 @@
 ---
-
 spring:
   application:
     name: company
   cloud:
     config:
-      uri: https://timandgerard:herpderp@${vcap.services.config-service.credentials.uri}
-management:
-  security:
-    enabled: false
+      uri: ${vcap.services.config-service.credentials.uri}
+      username: timandgerard
+      password: herpderp
