@@ -9,6 +9,7 @@ applications:
    - company-db
    - company-log
    - newrelic
+   - config-service
   path: ./build/libs/company.jar
   env:
     SPRING_PROFILES_ACTIVE: dev
