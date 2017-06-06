@@ -24,6 +24,7 @@ public class SampleData implements CommandLineRunner {
     	logger.debug("Started SampleData...");
     	add(new Company("Resilient Scale", new String[]{"Resilient Scale, Inc", "Resilient Scale Inc", "RScale"}, "https://rscale.io", "resilientscale"));
     	add(new Company("Cloud Foundry", new String[]{"Cloud Foundry Foundation", "CFF"}, "https://cloudfoundry.org", "cloudfoundry"));
+    	add(new Company("CGI", new String[]{"CGI", "CGI"}, "https://www.cgi.com", "cgi"));
         repository.findAll().forEach(company -> logger.debug(company));
     }
     	
