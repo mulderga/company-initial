@@ -20,9 +20,9 @@ artifact_regexp: gmulder-company-(.*).jar
 artifact_bucket: rscale-training-bucket
 artifact_bucket_region_name: us-west-2
 
-cf_dev_api: console.run.pivotal.io
+cf_dev_api: api.run.pivotal.io
 cf_dev_organization: rscale-training-4
 cf_dev_space: gerard.mulder@cgi.com
-cf_dev_hostname: company-gmulder
-cf_dev_domain: company-thunderous-filioque.cfapps.io
-cf_dev_manifest: app/manifest-dev.yml
+cf_dev_hostname: company-thunderous-filioque
+cf_dev_domain: cfapps.io
+cf_dev_manifest: manifest-dev.yml
