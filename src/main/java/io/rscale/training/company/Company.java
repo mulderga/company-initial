@@ -3,6 +3,7 @@ package io.rscale.training.company;
 import java.util.Arrays;
 import java.util.UUID;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -14,10 +15,11 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class Company {
 
 	@Id
-	@GenericGenerator(name = "uuid", strategy = "uuid2")
-	@GeneratedValue(generator = "uuid")
+	@GenericGenerator(name = "uuid2", strategy = "uuid2")
+	@GeneratedValue(generator = "uuid2")
+	@Column(columnDefinition = "BINARY(16)")
 	private UUID id;
-	
+
 	@NotEmpty
 	private String name;
 	private String[] aliases;
