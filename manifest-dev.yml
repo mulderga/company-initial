@@ -10,5 +10,3 @@ applications:
    - company-log
    - config-service
   path: ./build/libs/company.jar
-  env:
-    SPRING_PROFILES_ACTIVE: dev
