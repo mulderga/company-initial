@@ -3,7 +3,7 @@ applications:
 - name: company
   random-route: true
   instances: 1
-  memory: 512M
+  memory: 1G
   buildpack: java_buildpack
   services:
    - company-db
