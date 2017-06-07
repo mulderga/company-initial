@@ -5,5 +5,7 @@ spring:
   cloud:
     config:
       uri: ${vcap.services.config-service.credentials.uri}
-      username: timandgerard
-      password: herpderp
+
+management:
+  security:
+    enabled: false
