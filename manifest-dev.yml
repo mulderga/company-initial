@@ -3,12 +3,11 @@ applications:
 - name: company
   random-route: true
   instances: 1
-  memory: 1G
+  memory: 512M
   buildpack: java_buildpack
   services:
    - company-db
    - company-log
-   - newrelic
    - config-service
   path: ./build/libs/company.jar
   env:
