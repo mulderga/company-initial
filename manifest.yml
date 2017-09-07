@@ -1,0 +1,12 @@
+---
+applications:
+- name: company
+  random-route: true
+  instances: 1
+  memory: 1G
+  buildpack: java_buildpack
+  services:
+   - company-db
+   #- logger
+   #- config-service
+  path: ./build/libs/company.jar
