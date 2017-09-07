@@ -7,6 +7,4 @@ applications:
   buildpack: java_buildpack
   services:
    - company-db
-   #- logger
-   #- config-service
   path: ./build/libs/company.jar
