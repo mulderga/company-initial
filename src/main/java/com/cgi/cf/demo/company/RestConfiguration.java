@@ -1,11 +1,8 @@
-package io.rscale.training.company;
+package com.cgi.cf.demo.company;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
-
-import io.rscale.training.company.Company;
-
 
 @Configuration
 public class RestConfiguration extends RepositoryRestConfigurerAdapter {

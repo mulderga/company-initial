@@ -1,4 +1,4 @@
-package io.rscale.training.company;
+package com.cgi.cf.demo.company;
 
 import java.util.Arrays;
 import java.util.UUID;

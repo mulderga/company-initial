@@ -1,4 +1,4 @@
-package io.rscale.training.company;
+package com.cgi.cf.demo.company;
 
 import org.junit.Ignore;
 import org.junit.Test;
