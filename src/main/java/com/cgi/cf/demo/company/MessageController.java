@@ -16,9 +16,14 @@ class MessageController {
 	private String message;
 
 	@RequestMapping("/message")
-
 	String getMessage() {
 		logger.debug("Show the message!");
 		return "\n" + this.message + "\n\n";
+	}
+
+	@RequestMapping("/kill")
+	void kill() {
+		logger.debug("Killing the app!");
+		System.exit(0);
 	}
 }
